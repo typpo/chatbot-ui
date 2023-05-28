@@ -41,7 +41,7 @@ export const initialState: HomeInitialState = {
   models: [],
   folders: [],
   conversations: [initialConvo],
-  selectedConversation: initialConvo,
+  selectedConversation: undefined,
   currentMessage: undefined,
   prompts: [],
   temperature: 0.7,
